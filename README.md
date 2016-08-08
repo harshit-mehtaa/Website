@@ -2,8 +2,8 @@
 The repository for Dad's website | pdpetals.com
 
 # IMPORTANT
-PLEASE DO NOT COMMIT CHNAGES DIRECTLY TO THE MASTER BRANCH
-Please create your own branch and work with it
+1. PLEASE DO NOT COMMIT CHNAGES DIRECTLY TO THE MASTER BRANCH
+2. Please create your own branch and work with it
 
 # Step to commit and merge changes to master
 1. Make changes in files locally and save it.
