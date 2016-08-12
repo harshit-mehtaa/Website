@@ -2,7 +2,7 @@
 The repository for Dad's website | pdpetals.com
 
 # IMPORTANT
-1. PLEASE DO NOT COMMIT CHNAGES DIRECTLY TO THE MASTER BRANCH
+1. PLEASE DO NOT COMMIT CHANGES DIRECTLY TO THE MASTER BRANCH
 2. Please create your own branch and work with it
 
 # Step to commit and merge changes to master
