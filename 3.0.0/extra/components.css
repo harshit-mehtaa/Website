@@ -1,0 +1,207 @@
+/**
+*
+*
+*
+*
+*
+*
+*
+*
+**
+*
+*/
+
+
+.mdl-components {
+    display: flex;
+}
+.mdl-components-index {
+    box-sizing: border-box;
+    padding-top: 64px;
+    position: relative;
+}
+.mdl-components-index-text {
+    margin: 0;
+    max-width: 960px;
+}
+.mdl-components-index-text .mdl-components-dl {
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.mdl-components-img {
+    background: rgba(0, 0, 0, 0) url("../assets/compindex_2x.png") no-repeat scroll left top / contain ;
+    height: 90%;
+    left: 40px;
+    margin-top: 24px;
+    max-height: 600px;
+    position: absolute;
+    width: 90%;
+}
+.mdl-components-text {
+    margin: 0;
+    padding: 0;
+}
+mdl-components-dl {
+    padding: 0.5em;
+    width: 80%;
+}
+mdl-components-dt {
+    clear: left;
+    float: left;
+    font-weight: 700;
+    width: 150px;
+}
+mdl-components-dd {
+    margin: 0 0 0 150px;
+    padding: 0 0 0.5em;
+}
+.mdl-components .mdl-components__nav {
+    background: #fff none repeat scroll 0 0;
+    box-sizing: border-box;
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 24px 0;
+    width: 200px;
+    z-index: 1;
+}
+.mdl-components .mdl-components__pages {
+    display: inline-block;
+    flex-grow: 1;
+    padding-bottom: 120px;
+}
+.mdl-components .mdl-components__link {
+    color: rgba(0, 0, 0, 0.66);
+    display: table;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 16px;
+    min-height: 48px;
+    padding-left: 72px;
+    position: relative;
+}
+.mdl-components .mdl-components__link.is-active {
+    color: #c2185b;
+    font-weight: 700;
+}
+.content {
+    background: #fafafa none repeat scroll 0 0;
+}
+.mdl-components .mdl-components__page {
+    display: none;
+    min-height: 1000px;
+}
+.mdl-components .docs-toc, .mdl-components .component-title {
+    margin-bottom: 60px;
+    margin-left: 32px;
+}
+.mdl-components .component-title {
+    margin-top: 30px;
+}
+.mdl-components .component-title h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+.mdl-components .snippet-code pre.language-markup code {
+    padding-left: 40px;
+}
+.mdl-components .mdl-components__page.is-active {
+    display: block;
+}
+.mdl-components__link-image {
+    background-color: #ddd;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 48px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 46px;
+    left: 0;
+    margin: 0 10px;
+    position: absolute;
+    top: 0;
+    width: 46px;
+}
+.mdl-components__warning {
+    background-color: #fff9c4;
+    border-radius: 2px;
+    color: #212121;
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 16px;
+    width: 100%;
+}
+.mdl-components__link.is-active .mdl-components__link-image {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+}
+.docs-readme {
+    margin: 0 auto;
+    max-width: 640px;
+    width: 100%;
+}
+.docs-readme .language-markup {
+    width: 100%;
+}
+@media (max-width: 850px) {
+.mdl-components .component-title, .mdl-components .docs-toc {
+    margin-left: 0;
+}
+.mdl-components .snippet-code pre.language-markup code {
+    padding-left: 8px;
+}
+.docs-layout-content {
+    height: 100%;
+    overflow: hidden !important;
+    position: relative;
+}
+.mdl-components .mdl-components__nav {
+    display: block;
+    flex-wrap: nowrap;
+    height: 120px;
+    left: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 8px;
+    position: fixed;
+    top: 64px;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 100;
+}
+.mdl-components-index-text .mdl-components-dl {
+    margin: 0;
+}
+.mdl-components-img {
+    left: 8px;
+}
+.components .content .about-panel {
+    padding: 8px;
+}
+.mdl-components__nav .mdl-components__link {
+    display: inline-block;
+    height: 100%;
+    margin: 0 8px 0 0;
+    min-width: 48px;
+    padding-left: 0;
+    padding-top: 10px;
+    vertical-align: top;
+    width: auto;
+}
+.mdl-components__nav .mdl-components__link > * {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+}
+.mdl-components__nav .mdl-components__link > .mdl-components__link-image {
+    position: static;
+    width: 48px;
+}
+.content {
+    height: 100%;
+    overflow-y: auto;
+    padding-left: 0 !important;
+    padding-top: 64px !important;
+}
+}

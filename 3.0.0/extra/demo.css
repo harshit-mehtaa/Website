@@ -1,0 +1,18 @@
+
+.demo-page {
+    box-sizing: border-box;
+    height: auto;
+    margin: 0;
+    padding: 24px;
+    width: 100%;
+}
+.demo-preview-block {
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 20px 20px 0;
+    width: 100%;
+}
+.demo-code {
+    box-sizing: border-box;
+    width: 100%;
+}
