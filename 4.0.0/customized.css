@@ -1,0 +1,263 @@
+/* Detials for links inside header - spacing */
+/*
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+	padding-right: 0 24px;
+}
+*/
+/*
+.mdl-layout__header-row {
+	background-color:  #283593;
+}
+*/
+
+/* Details of HEADER_STARTS here - title */
+.mdl-layout__header-row .mdl-layout-title {
+	color: #4051B5;
+	font-size: 25px;
+	font-weight: 700;
+}
+/* Details for links inside header */
+.mdl-layout__header-row nav.mdl-navigation .mdl-navigation__link {
+	display: inline-block;
+	/*color: #878796;*/
+	color: #92989b;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 4px solid transparent;
+	height: 60px;
+	opacity: 1.0;
+}
+/* Underline color for links inside header on hover */
+.mdl-layout__header-row nav.mdl-navigation .mdl-navigation__link:hover {
+	border-bottom: 4px solid #4051B5;
+	opacity: 1.0;
+}
+.mdl-layout__header-row a.mdl-navigation__link {
+	color: #4051B5;
+	font-size: 25px;
+	font-weight: 700;
+}
+/* Details of HEADER_ENDS here*/
+
+
+/* Details of DRAWER_STARTS here */
+.custom-drawer {
+	background-color: #ffffff;
+}
+/* Details for seperator inside drawer */
+.custom-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+	margin: 4px 6px; /* margin-top and bottom: 4px each  |  margin-left and bottom: 14px each */
+}
+/* Details for drawer button inside drawer */
+.mdl-layout__header .mdl-layout__drawer-button {
+	color: #767777;
+}
+/* Details for HEADER_STARTS here - drawer */
+.custom-drawer .mdl-layout-title {
+	color: #3F51B5;
+	background-color: #ffffff;
+	font-size: 25px;
+	font-weight: 700;
+}
+/* Details for HEADER_ENDS here */
+
+/* Details of SECTION_STARTS here - drawer title */
+/* Details for drawer section title - no link*/
+.custom-drawer span.mdl-navigation__link.mdl-navigation__link {
+	color: #2296F4;
+	font-size: 14px;
+	font-weight: 700;
+}
+/* Details for drawer section title on hover - no link */
+.custom-drawer span.mdl-navigation__link.mdl-navigation__link:hover {
+	background-color: transparent;
+}
+/* Details of SECTION_ENDS here */
+
+/* Details of LINKS_STARTS here - drawer */
+/* Details of drawer links */
+.custom-drawer .mdl-navigation__link.mdl-navigation__link {
+	/*color: #000000;*/
+	color: #92989b;
+	opacity: 1.0;
+	font-size: 14px;
+	font-weight: 700;
+}
+/* Details of drawer links on hover */
+.custom-drawer .mdl-navigation__link.mdl-navigation__link:hover {
+	border-bottom: none;
+	background-color: transparent;
+	color: #4051B5;
+}
+/* Details of LINKS_ENDS here */
+
+/* Details of ICONS_STARTS here - drawer */
+.custom-drawer .mdl-navigation .mdl-navigation__link i {
+	margin-right: 10px;
+}
+/* Details of ICONS_ENDS here */
+/* Details of DRAWER_ENDS here */
+
+
+/* Details of TABLE_STARTS here - contact us page*/
+.mdl-data-table th, .mdl-data-table td, .mdl-data-table tr, .mdl-data-table thead, .mdl-data-table {
+	border: none;
+}
+/* Details of TABLE_ENDS here */
+
+
+/* Details of CARD_STARTS here - contact us page */
+.mdl-cell .mdl-card__title {
+	/*
+	color: #FFFFFF;
+	background-color: #283593;
+	*/
+	color: #000000;
+	background-color: #ffffff;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.14), 0 15px 5px -10px rgba(0, 0, 0, 0.2), 0 5px 25px 0 rgba(0, 0, 0, 0.12);
+}
+/* Details about icons - contact us page */
+.mdl-cell .mdl-card__supporting-text .material-icons {
+	margin-right: 10px;
+	margin-top: 10px;
+	color: #757575;
+}
+/* Details about text next to icons - contact us page */
+.mdl-card__supporting-text {
+	color: #000000;
+}
+
+
+
+.mdl-cell .custom-effect-card {
+	background-color: #ffffff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.mdl-cell .custom-effect-card-2 {
+	background-color: #ffffff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.mdl-cell .custom-grid {
+	padding: 0px;
+	margin: 0px;
+}
+
+.mdl-cell .custom-cell-left {
+	width: 50%;
+	margin: 0px;
+}
+.mdl-cell .custom-cell-right {
+	width: 50%;
+	margin: 0px;
+}
+
+
+/* Details of CARD_ENDS here */
+
+/* Details of FOR_STARTS here */
+/* Details of INPUT in form start here */
+.mdl-textfield {
+	width: 100%;
+}
+.mdl-textfield__label::after {
+    background-color: #ff6d00;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+	color: #ff6d00;
+}
+/* Details of FORM_ENDS here */
+
+/* Details of custom background block starts here - contact us page */
+.mdl-grid .custom-effect-cell {
+	z-index: -1;
+	position: absolute;
+	left: 0px;
+	background-color: #607D8B;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.mdl-grid .custom-effect-cell .custom-effect-title {
+	padding: 0px;
+	margin-left: 0px; 
+	box-shadow: none; 
+	border-bottom: 250px solid #607D8B;
+}
+/* Details of custom background block ends here */
+
+
+
+
+/*Details of FOOTER_STARTS here */
+/* Details of footer logo */
+.mdl-mini-footer, .mdl-mini-footer .mdl-logo {
+	/*color: #777777;*/
+	color: #6C6E6F;
+	font-size: 18px;
+	font-weight: 700;
+	background-color: #ECEFF1;
+}
+/* Details of footer text */
+.mdl-mini-footer .mdl-mini-footer__span {
+	background-color: #ECEFF1;
+	/*color: #777777; */
+    color: #6C6E6F;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* Details of FOOTER_ENDS here */
+
+
+
+
+
+
+
+
+
+/* Products page - sidebar - code starts here */
+/*
+.mdl-components {
+	display: flex;
+}
+
+.mdl-components .mdl-components__nav {
+    background: #fff none repeat scroll 0 0;
+    box-sizing: border-box;
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 24px 0;
+    width: 200px;
+    z-index: 1;
+}
+
+
+.mdl-components .mdl-components__link {
+    color: rgba(0, 0, 0, 0.66);
+    display: table;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 16px;
+    min-height: 48px;
+    padding-left: 72px;
+    position: relative;
+}
+.docs-text-styling a {
+    text-decoration: none;
+}
+
+.mdl-components .mdl-components__pages {
+    display: inline-block;
+    flex-grow: 1;
+    padding-bottom: 120px;
+}
+*/
+/* Products page - sidebar - code ends here */

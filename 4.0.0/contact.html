@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<title>P. D. Enterprise</title>
+	<!-- Description of the page -->
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+	
+	<!-- CSS part starts here -->
+	<script src="https://code.getmdl.io/1.2.1/material.min.js"></script><!-- Material Design - Basic CSS -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-deep_purple.min.css"><!-- Material Design customized color CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><!-- Material Design icon font -->
+	<link rel="stylesheet" href="customized.css"><!-- Customized CSS -->
+	<!-- CSS part ends here -->
+
+</head>
+
+<body>
+	<!-- Make header fixed - Main div starts here -->
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<!-- Header with transparent background -->
+		<header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header">
+			<div class="mdl-layout__header-row">
+				<!-- Title for the header - lage screen -->
+				<span class="mdl-layout-title">
+					<a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">
+						P.D.Enterprise
+					</a>
+				</span>
+				<!-- Add spacer, to align navigation to the right -->
+				<div class="mdl-layout-spacer"></div>
+				<!-- Navigation links -->
+				<nav class="mdl-navigation mdl-layout--large-screen-only">
+					<a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">home</a>
+					<!--
+					<a class="mdl-navigation__link mdl-typography--text-uppercase" href="products.html">products</a>
+					-->
+					<a class="mdl-navigation__link mdl-typography--text-uppercase" href="about.html">about</a>
+					<a class="mdl-navigation__link mdl-typography--text-uppercase" href="">contact us</a>
+				</nav>
+				<!-- Navigation links ends here -->
+			</div>
+		</header>
+		<!-- Header ends here -->
+		
+		<!-- Drawer starts here - for small screen only -->
+		<div class="custom-drawer mdl-layout__drawer mdl-layout--small-screen-only">
+			<!-- Drawer titlw -->
+			<span class="mdl-layout-title">P.D. Enterprise</span>
+			<!-- Drawer - navigation links starts here -->
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="index.html"><i class="material-icons">home</i>Home</a>
+				<a class="mdl-navigation__link" href="about.html"><i class="material-icons">receipt</i><i class="material-icons">subject</i><i class="material-icons">short_text</i>About</a>
+				<a class="mdl-navigation__link" href="about.html"><i class="material-icons">subject</i>About</a>
+				<a class="mdl-navigation__link" href=""><i class="material-icons">email</i>Contact Us</a>
+			</nav>
+			<!-- Drawer - navigation links ends here -->
+		</div>
+		<!-- Drawer ends here -->
+		
+		
+		<!-- Page content starts here -->
+		<main class="mdl-layout__content">
+			<div class="mdl-grid">
+				<!--<div class="mdl-cell mdl-cell--stretch mdl-cell--12-col mdl-cell--hide-tablet mdl-cell--hide-phone custom-effect-cell">-->
+				<div class="mdl-cell mdl-cell--stretch mdl-cell--12-col mdl-cell--hide-phone custom-effect-cell">
+					<div class="mdl-card__title mdl-card--border custom-effect-title" >
+						<div class="mdl-card__title-text"></div>
+					</div>
+				</div>
+				<!--
+				<div class="mdl-cell mdl-cell mdl-cell--2-col-desktop"></div>
+				<div class="mdl-cell mdl-cell--stretch mdl-cell--8-col">
+					<div class="mdl-card__title mdl-card--border" style="margin-top: 10px;">
+						<div class="mdl-card__title-text">Contact Us</div>
+					</div>
+				</div>
+				<div class="mdl-cell mdl-cell mdl-cell--2-col-desktop"></div>
+				<div class="mdl-cell mdl-cell mdl-cell--2-col-desktop"></div>
+				<div class="mdl-cell mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+						<div class="mdl-card__supporting-text custom-effect-card">
+							<form action="">
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" id="sample1">
+									<label class="mdl-textfield__label" for="sample1">Name</label>
+								</div>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" id="sample1">
+									<label class="mdl-textfield__label" for="sample1">Email</label>
+								</div>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" size="10" id="sample2">
+									<label class="mdl-textfield__label" for="sample2">Contact Number</label>
+									<span class="mdl-textfield__error">Input is not a number!</span>
+								</div>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<textarea class="mdl-textfield__input" type="text" rows= "1" id="sample5" ></textarea>
+									<label class="mdl-textfield__label" for="sample5">Message</label>
+								</div>
+								<div class="mdl-card--border">
+									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button" 
+									style="background-color: #ff6d00; color: #FFFFFF; margin-top: 23px;">
+										Submit
+									</button>
+								</div>
+							</form>
+						</div>
+				</div>
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+					<div class="mdl-card__supporting-text custom-effect-card">
+						<div class="mdl-card__supporting-text">
+							<i class="material-icons">place</i>
+							1 - Sai Sadan, 76/78, Mody Street, Fort, <br>&emsp;&emsp;&nbsp;
+							Mumbai - 400001, Maharashtra, India
+						</div>
+						<div class="mdl-card__supporting-text">
+							<i class="material-icons">phone</i>
+							+91 (0)22 400 27784
+						</div>
+						<div class="mdl-card__supporting-text">
+							<i class="material-icons">phone_iphone</i>
+							+91 900 468 7784
+						</div>
+						<div class="mdl-card__supporting-text">
+							<i class="material-icons">email</i>
+							pdenterprise@hotmail.com
+						</div>
+						<div class="mdl-card__supporting-text">
+							<i class="material-icons">schedule</i>
+							Monday - Saturday    |    0900 - 1700 IST
+						</div>
+					</div>
+				</div>
+				<div class="mdl-cell mdl-cell mdl-cell--2-col-desktop"></div>
+				-->
+				<div class="mdl-cell mdl-cell--3-col-desktop"></div>
+				<div class="mdl-cell mdl-cell--stretch mdl-cell--6-col-desktop mdl-cell--8-col-tablet">
+					<div class="mdl-card__title mdl-card--border" style="margin-top: 10px;">
+						<div class="mdl-card__title-text">Contact Us</div>
+					</div>
+					<!--
+					<div class="mdl-grid mdl-grid--nesting custom-grid">
+					->
+					<!--
+					<div class="mdl-cell mdl-cell--stretch mdl-cell--6-col-desktop" 
+					style="position: absolute; z-index: -1; margin-bottom: 200px; background-color: #ffffff; opacity: 1.0;"></div>
+					-->
+					<!--
+						<div class="mdl-cell mdl-cell--stretch mdl-cell--6-col-desktop custom-cell-left">
+							<div class="mdl-card__supporting-text custom-effect-card">
+							<form action="">
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" id="sample1">
+									<label class="mdl-textfield__label" for="sample1">Name</label>
+								</div>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" id="sample1">
+									<label class="mdl-textfield__label" for="sample1">Email</label>
+								</div>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" size="10" id="sample2">
+									<label class="mdl-textfield__label" for="sample2">Contact Number</label>
+									<span class="mdl-textfield__error">Input is not a number!</span>
+								</div>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<textarea class="mdl-textfield__input" type="text" rows= "1" id="sample5" ></textarea>
+									<label class="mdl-textfield__label" for="sample5">Message</label>
+								</div>
+								<div class="mdl-card--border">
+									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button" 
+									style="background-color: #ff6d00; color: #FFFFFF; margin-top: 28px;">
+										Submit
+									</button>
+								</div>
+							</form>
+							</div>
+						</div>
+						<div class="mdl-cell mdl-cell--stretch mdl-cell--6-col-desktop custom-cell-right">
+							<div class="mdl-card__supporting-text custom-effect-card-2">
+								<div class="mdl-card__supporting-text" style="background-color: #ffffff;">
+									<i class="material-icons">place</i>
+									1 - Sai Sadan, 76/78, Mody Street, <br>&emsp;&emsp;&nbsp;
+									Fort, Mumbai - 400001, <br>&emsp;&emsp;&nbsp;	
+									Maharashtra, India
+								</div>
+								<div class="mdl-card__supporting-text">
+									<i class="material-icons">phone</i>
+									+91 (0)22 400 27784
+								</div>
+								<div class="mdl-card__supporting-text">
+									<i class="material-icons">phone_iphone</i>
+									+91 900 468 7784
+								</div>
+								<div class="mdl-card__supporting-text">
+									<i class="material-icons">email</i>
+									pdenterprise@hotmail.com
+								</div>
+								<div class="mdl-card__supporting-text">
+									<i class="material-icons">schedule</i>
+									Monday - Saturday    |    0900 - 1700 IST
+								</div>
+							</div>
+						</div>
+						-->
+					<!--</div>-->
+					
+					<div class="mdl-grid mdl-grid--nesting mdl-grid--no-spacing">
+						<div class="mdl-cell mdl-cell--6-col-desktop">
+							<div class="mdl-card__supporting-text" style="background-color: #fff;">
+								<div class="mdl-card__supporting-text custom-effect-card">
+							<form action="">
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" id="sample1">
+									<label class="mdl-textfield__label" for="sample1">Name</label>
+								</div>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" id="sample1">
+									<label class="mdl-textfield__label" for="sample1">Email</label>
+								</div>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" size="10" id="sample2">
+									<label class="mdl-textfield__label" for="sample2">Contact Number</label>
+									<span class="mdl-textfield__error">Input is not a number!</span>
+								</div>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<textarea class="mdl-textfield__input" type="text" rows= "1" id="sample5" ></textarea>
+									<label class="mdl-textfield__label" for="sample5">Message</label>
+								</div>
+								<div class="mdl-card--border">
+									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button" 
+									style="background-color: #ff6d00; color: #FFFFFF; margin-top: 23px;">
+										Submit
+									</button>
+								</div>
+							</form>
+						</div>
+							</div>
+						</div>
+						<div class="mdl-cell mdl-cell--6-col-desktop">
+							<div class="mdl-card__supporting-text" style="background-color: #fff;">
+								Hello
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- Main page content end here -->
+		
+		<!-- Footer starts here -->
+		<footer class="mdl-mini-footer">
+			<div class="mdl-mini-footer__left-section">
+				<div class="mdl-logo">P.D.Enterprise</div>
+				<ul class="mdl-mini-footer__link-list">
+				</ul>
+			</div>
+			<div class="mdl-mini-footer__right-section">
+				<ul class="mdl-mini-footer__link-list">
+					<li><span class="mdl-mini-footer__span">Created by: </span>RomaGraphics</li>
+					<li><span class="mdl-mini-footer__span">Contact: </span>+91-9004687735 </li>
+				</ul>
+			</div>
+		</footer>
+		<!-- Foter ends here -->
+	</div>
+	<!-- Main div ends here -->
+</body>
+</html>
