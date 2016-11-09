@@ -11,15 +11,27 @@
 */
 
 /* Details of HEADER_STARTS here - title */
-.mdl-layout__header-row .mdl-layout-title {
-	color: #4051B5;
+.mdl-layout__header-row > .mdl-layout-title > .custom-title-color.mdl-navigation__link { 
+	color: #3F51B5 !important;
 	font-size: 25px;
 	font-weight: 700;
+	opacity: 1.0;
+}
+/*
+.mdl-layout__header-row a.mdl-navigation__link {
+	color: #3F51B5;
+	font-size: 25px;
+	font-weight: 700;
+}*/
+.mdl-layout__header-row .mdl-layout-title {
+	color: #3F51B5;
+	font-size: 25px;
+	font-weight: 700;
+	opacity: 1.0;
 }
 /* Details for links inside header */
 .mdl-layout__header-row nav.mdl-navigation .mdl-navigation__link {
 	display: inline-block;
-	/*color: #878796;*/
 	color: #92989b;
 	font-size: 14px;
 	font-weight: 700;
@@ -29,14 +41,11 @@
 }
 /* Underline color for links inside header on hover */
 .mdl-layout__header-row nav.mdl-navigation .mdl-navigation__link:hover {
-	border-bottom: 4px solid #4051B5;
+	/*border-bottom: 4px solid #4051B5;*/
+	border-bottom: 4px solid #1A237E;
 	opacity: 1.0;
 }
-.mdl-layout__header-row a.mdl-navigation__link {
-	color: #4051B5;
-	font-size: 25px;
-	font-weight: 700;
-}
+
 /* Details of HEADER_ENDS here*/
 
 
@@ -89,7 +98,8 @@
 .custom-drawer .mdl-navigation__link.mdl-navigation__link:hover {
 	border-bottom: none;
 	background-color: transparent;
-	color: #4051B5;
+	/*color: #4051B5;*/
+	color: #1A237E;
 }
 /* Details of LINKS_ENDS here */
 
@@ -101,63 +111,39 @@
 /* Details of DRAWER_ENDS here */
 
 
-/* Details of TABLE_STARTS here - contact us page*/
-.mdl-data-table th, .mdl-data-table td, .mdl-data-table tr, .mdl-data-table thead, .mdl-data-table {
-	border: none;
-}
-/* Details of TABLE_ENDS here */
-
 
 /* Details of CARD_STARTS here - contact us page */
-.mdl-cell .mdl-card__title {
-	/*
-	color: #FFFFFF;
-	background-color: #283593;
-	*/
+.mdl-grid > .custom-cell-margin-top.mdl-cell {
+	margin-top: 40px;
+}
+.custom-card.mdl-card {
+	width: 100%;
+	background-color:
+	transparent; min-height: 0px;
+}
+.custom-card > .mdl-card__title {
 	color: #000000;
 	background-color: #ffffff;
-	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.14), 0 15px 5px -10px rgba(0, 0, 0, 0.2), 0 5px 25px 0 rgba(0, 0, 0, 0.12);
+}
+.custom-card > .mdl-grid {
+	margin: 0px;
+}
+.mdl-cell > .custom-card-sub.mdl-card {
+	width: 100%;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.mdl-button {
+	background-color: #ff6d00;
+	color: #ffffff;
 }
 /* Details about icons - contact us page */
 .mdl-cell .mdl-card__supporting-text .material-icons {
 	margin-right: 10px;
 	margin-top: 10px;
-	color: #757575;
+	/*color: #757575;*/
+	/*color: #ff6d00;*/
 }
-/* Details about text next to icons - contact us page */
-.mdl-card__supporting-text {
-	color: #000000;
-}
-
-
-
-.mdl-cell .custom-effect-card {
-	background-color: #ffffff;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
-
-.mdl-cell .custom-effect-card-2 {
-	background-color: #ffffff;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-
-.mdl-cell .custom-grid {
-	padding: 0px;
-	margin: 0px;
-}
-
-.mdl-cell .custom-cell-left {
-	width: 50%;
-	margin: 0px;
-}
-.mdl-cell .custom-cell-right {
-	width: 50%;
-	margin: 0px;
-}
-
-
 /* Details of CARD_ENDS here */
 
 /* Details of FOR_STARTS here */
@@ -180,7 +166,8 @@
 	z-index: -1;
 	position: absolute;
 	left: 0px;
-	background-color: #607D8B;
+	background-color: #1A237E;
+	/*background-color: #607D8B;*/
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
@@ -189,12 +176,39 @@
 	padding: 0px;
 	margin-left: 0px; 
 	box-shadow: none; 
-	border-bottom: 250px solid #607D8B;
+	/*border-bottom: 250px solid #607D8B;*/
+	border-bottom: 300px solid #546E7A;
 }
 /* Details of custom background block ends here */
 
+/* Details of table inside card - contact us page */
+.mdl-data-table th, .mdl-data-table td, .mdl-data-table tr, .mdl-data-table thead, .mdl-data-table {
+	border: none;
+}
 
-
+.mdl-data-table td{
+	/*padding-left: 0px;*/
+	padding-right: 0px;
+}
+/*
+.mdl-data-table td:first-of-type {
+	padding-left: 0px;
+}
+*/
+.mdl-data-table tbody tr:hover{
+	background-color: transparent;
+}
+.mdl-data-table tbody tr{
+	width: 100%;
+}
+.mdl-data-table{
+	width: 100%;
+}
+.mdl-data-table.material-icons {
+	margin-right: 10px;
+	color: #757575;
+}
+/* details of table ends here */
 
 /*Details of FOOTER_STARTS here */
 /* Details of footer logo */
@@ -217,7 +231,26 @@
 
 
 
+@media only screen and (max-width: 940px) {
+	.mdl-data-table td{
+	padding-left: 0px;
+	padding-right: 0px;
+	/*word-wrap: break-word;*/
+}
 
+	.mdl-data-table td:first-of-type {
+		padding-left: 0px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.mdl-card__title {
+		background-color: #546E7A !important;
+	}
+	.mdl-card__title-text {
+		color: #ffffff;
+	}
+}
 
 
 
