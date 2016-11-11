@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-deep_purple.min.css"><!-- Material Design customized color CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><!-- Material Design icon font -->
 	<link rel="stylesheet" href="customized.css"><!-- Customized CSS -->
+	<script src="customized.js"></script><!-- Customized JS -->
 	<!-- CSS part ends here -->
 </head>
 
@@ -78,7 +79,7 @@
 					<div class="custom-card mdl-card mdl-shadow--16dp">
 						<div class="mdl-card__title mdl-card--border">
 							<h1 class="mdl-card__title-text">
-								Contact Us
+								Get in Touch
 							</h1>
 						</div>
 						<!-- Card title ends here -->
@@ -91,25 +92,36 @@
 										<!-- Form starts here -->
 										<form action="#">
 											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-												<input class="mdl-textfield__input" type="text" id="sample1">
-												<label class="mdl-textfield__label" for="sample1">Name</label>
+												<input class="mdl-textfield__input" type="text" id="name" onfocusout="checkName()">
+												<!--<input class="mdl-textfield__input" type="text" id="name" onkeyup="checkName()">-->
+												<label class="mdl-textfield__label" for="name">Name*</label>
+												<span class="mdl-textfield__error" id="name_invalid">Your name is not valid!</span>
+												<span class="mdl-textfield__error" id="name_missing">Please enter you name</span>
 											</div>
 											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-												<input class="mdl-textfield__input" type="text" id="sample2">
-												<label class="mdl-textfield__label" for="sample2">Email</label>
+												<input class="mdl-textfield__input" type="text" id="email" onfocusout="checkEmail()">
+												<!--<input class="mdl-textfield__input" type="text" id="email" onkeyup="checkEmail()">-->
+												<label class="mdl-textfield__label" for="email">Email*</label>
+												<span class="mdl-textfield__error" id="email_invalid">Your email address is not valid!</span>
+												<span class="mdl-textfield__error" id="email_missing">Please enter your email addesss</span>
 											</div>
 											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-												<input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample3">
-												<label class="mdl-textfield__label" for="sample3">Contact Number</label>
-												<span class="mdl-textfield__error">Input is not a number!</span>
+												<input class="mdl-textfield__input" type="text" id="contact_number" onfocusout="checkContactNumber()">
+												<!--<input class="mdl-textfield__input" type="text" id="contact_number" onkeyup="checkContactNumber()">-->
+												<label class="mdl-textfield__label" for="contact_number">Contact Number*</label>
+												<span class="mdl-textfield__error" id="contact_number_invalid">Your contact number is not valid!</span>
+												<span class="mdl-textfield__error" id="contact_number_missing">Please enter your contact number</span>
 											</div>
 											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-												<textarea class="mdl-textfield__input" type="text" rows= "3" id="sample4" ></textarea>
-												<label class="mdl-textfield__label" for="sample4">Message</label>
+												<textarea class="mdl-textfield__input" type="text" rows= "3" id="message" onfocusout="checkMessage()"></textarea>
+												<!--<textarea class="mdl-textfield__input" type="text" rows= "3" id="message" onkeyup="checkMessage()"></textarea>-->
+												<label class="mdl-textfield__label" for="message">Message*</label>
+												<span class="mdl-textfield__error" id="message_invalid">The email address is not valid!</span>
+												<span class="mdl-textfield__error" id="message_missing">Please enter the message</span>
 											</div>
-											<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-												Submit
-											</button>
+											<div style="display: block; margin-top: 20px;">
+												<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Submit</button>
+											</div>
 										</form>
 										<!-- Form ends here -->
 									</div>
@@ -121,6 +133,45 @@
 							<div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--8-col-tablet">
 								<div class="custom-card-sub mdl-card">
 									<div class="mdl-card__supporting-text">
+										<ul class="demo-list-icon mdl-list">
+											<li class="mdl-list__item">
+												<span class="mdl-list__item-primary-content">
+													<i class="material-icons mdl-list__item-icon">place</i>
+													1 - Sai Sadan, 76/78, Mody Street, Fort, Mumbai - 400001, Maharashtra, India
+												</span>
+											</li>
+											<li class="mdl-list__item">
+												<span class="mdl-list__item-primary-content">
+													<i class="material-icons mdl-list__item-icon">phone</i>
+													+91 (0)224-002-7784
+												</span>
+											</li>
+											<li class="mdl-list__item">
+												<span class="mdl-list__item-primary-content">
+													<i class="material-icons mdl-list__item-icon">phone_iphone</i>
+													+91 (0)900-468-7784
+												</span>
+											</li>
+											<li class="mdl-list__item">
+												<span class="mdl-list__item-primary-content">
+													<i class="material-icons mdl-list__item-icon">email</i>
+													pdenterprise @hotmail.com
+												</span>
+											</li>
+											<li class="mdl-list__item">
+												<span class="mdl-list__item-primary-content">
+													<i class="material-icons mdl-list__item-icon">today</i>
+													Monday - Saturday
+												</span>
+											</li>
+											<li class="mdl-list__item">
+												<span class="mdl-list__item-primary-content">
+													<i class="material-icons mdl-list__item-icon">schedule</i>
+													0900 - 1700 IST
+												</span>
+											</li>
+										</ul>
+									<!--
 										<table class="mdl-data-table mdl-js-data-table">
 											<tbody>
 												<tr>
@@ -149,6 +200,7 @@
 												</tr>
 											</tbody>
 										</table>
+										-->
 									</div>
 								</div>
 							</div>
@@ -165,8 +217,6 @@
 		<footer class="mdl-mini-footer">
 			<div class="mdl-mini-footer__left-section">
 				<div class="mdl-logo">P.D.Enterprise</div>
-				<ul class="mdl-mini-footer__link-list">
-				</ul>
 			</div>
 			<div class="mdl-mini-footer__right-section">
 				<ul class="mdl-mini-footer__link-list">
