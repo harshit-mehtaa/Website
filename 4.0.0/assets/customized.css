@@ -134,18 +134,23 @@
 }
 /* Details of FOOTER_ENDS here */
 
-/* RIBBON */
-.ribbon {
+/* Details of custom background block starts here - contact us page */
+.mdl-grid .custom-effect-cell {
+	z-index: -1;
+	position: absolute;
+	left: 0px;
+	margin: 0px;
 	width: 100%;
-	height: 40vh;
-	background-color: #3F51B5;
-	flex-shrink: 0;
 }
+.mdl-grid .custom-effect-cell .custom-effect-title {
+	padding: 0px;
+	/*margin-left: 0px; */
+	/*box-shadow: none;*/
+	border-bottom: 40vh solid #3F51B5;
+}
+/* Details of custom background block ends here */
 
-.custom-main {
-	margin-top: -35vh;
-	flex-shrink: 0;
-}
+
 .custom-grid {
 	max-width: 2500px;
 	width: calc(100% - 16px);
@@ -155,6 +160,7 @@
 	border-radius: 2px;
     padding: 40px 16px 40px 16px;
     margin-bottom: 80px;
+	margin-top: 5vh;
 }
 .custom-grid-inner {
 	padding: 0;
