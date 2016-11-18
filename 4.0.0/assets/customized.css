@@ -176,7 +176,7 @@
 	background-color: #ff6d00;
 	color: #ffffff;
 }
-.custom-button:hover, .custom-button:active, .custom-button:focus, .custom-button:active:not(:active) {
+.custom-button:hover, .custom-button:active, .custom-button:focus, .custom-button:active:not(:active), .mdl-button--raised:focus:not(:active) {
 	background-color: #E65100;
 	color: #ffffff;
 }
