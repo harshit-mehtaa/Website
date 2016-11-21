@@ -132,6 +132,15 @@
 .mdl-mini-footer__left-section, .mdl-mini-footer__right-section, .mdl-mini-footer__link-list {
 	background-color: #ECEFF1;
 }
+.mdl-mini-footer__left-section {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.mdl-mini-footer__right-section {
+	margin-top: 7px;
+	margin-left: 20px;
+	margin-right: 4px;
+}
 /* Details of FOOTER_ENDS here */
 
 /* Details of custom background block starts here - contact us page */
