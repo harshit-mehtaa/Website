@@ -167,6 +167,10 @@
 .custom-cell {
 	padding: 0;
 }
+.mdl-list {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
 
 /* Details for FORM_STARTS here */
 .custom-textfield {
@@ -175,6 +179,7 @@
 .custom-button {
 	background-color: #ff6d00;
 	color: #ffffff;
+	margin-top: 20px;
 }
 .custom-button:hover, .custom-button:active, .custom-button:focus, .custom-button:active:not(:active), .mdl-button--raised:focus:not(:active) {
 	background-color: #E65100;
@@ -199,8 +204,13 @@
 	}
 	.custom-content {
 		width: calc(100% - 16px);
+		padding-top: 20px;
+		padding-bottom: 0px;
+		margin-bottom: 8px;
 	}
 	.custom-cell {
 		width: calc(100% - 16px);
 	}
+	.mdl-list__item {
+		padding-left: 0px;
 }
