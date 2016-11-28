@@ -7,12 +7,12 @@ The repository for Dad's website | pdpetals.com
 
 # Step to commit and merge changes to master
 1. Make changes in files locally and save it.
-2. Execute the belo caommands on Git Terminal
-    commit -m "Some description of what/why are you commiting"
-    git checkout master
-    pull origin master
-    merge <brach_name>
-    push origin master
+2. Execute the below caommands on Git Terminal
+    a. commit -m "Some description of what/why are you commiting"
+    b. git checkout master
+    c. pull origin master
+    d. merge <brach_name>
+    e. push origin master
 
 # Some links to learn Git and GitHub
 1. https://guides.github.com/activities/hello-world/
